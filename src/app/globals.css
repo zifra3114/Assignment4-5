@@ -299,7 +299,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 
   .header-button {
     font-size: 14px; 
-    gap: 10px; 
+     gap: 10px;  
   }
 
   .logo {
@@ -321,6 +321,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
     width: 90%; 
     left: 5%;
     height: 70%;
+    font-size: 10px;
   }
 
   .image-container,
@@ -345,7 +346,8 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 
 @media (min-width: 600px) and (max-width: 900px) {
   .header {
-    padding: 30px; /* More padding for tablets */
+    padding: 30px;/* More padding for tablets */
+    gap: 10px;
   }
 
   .child-container {
